@@ -60,7 +60,7 @@ const server = http.createServer((req, res) => {
     });
 });
 
-// Start the server on port 3000 or use the provided environment variable PORT
+// Start the server on port 8000 or use the provided environment variable PORT
 // The API endpoint is /getTimeStories
 const PORT = process.env.PORT || 8000;
 server.listen(PORT, () => {
